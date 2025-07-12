@@ -3,5 +3,6 @@
              x:Class="SalonGui.App">
     <Application.Styles>
         <FluentTheme/>
+        <StyleInclude Source="avares://SalonGui/Styles/Theme.axaml"/>
     </Application.Styles>
 </Application>

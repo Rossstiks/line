@@ -1,0 +1,19 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Styles.Resources>
+        <SolidColorBrush x:Key="SystemAccentColor" Color="#FF8A65"/>
+    </Styles.Resources>
+
+    <Style Selector="Window">
+        <Setter Property="Background" Value="#FFF8F8FF"/>
+    </Style>
+
+    <Style Selector="Button">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="Margin" Value="0,5"/>
+    </Style>
+
+    <Style Selector="TextBox">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    </Style>
+</Styles>
