@@ -1,7 +1,8 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="SalonGui.Views.CloseMonthWindow"
-        Title="Close Month" Width="250" Height="180">
+        Title="Close Month" Width="250" Height="180"
+        WindowStartupLocation="CenterOwner">
     <StackPanel Margin="10" Spacing="5">
         <TextBox Name="YearBox" Watermark="Year"/>
         <TextBox Name="MonthBox" Watermark="Month"/>
