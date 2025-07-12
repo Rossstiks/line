@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SalonGui.Views.AddEntryWindow"
+        Title="Add Entry" Width="300" Height="400">
+    <StackPanel Margin="10" Spacing="5">
+        <TextBox Name="YearBox" Watermark="Year"/>
+        <TextBox Name="MonthBox" Watermark="Month"/>
+        <TextBox Name="RevenueBox" Watermark="Revenue"/>
+        <TextBox Name="ClientsBox" Watermark="Clients"/>
+        <TextBox Name="MaterialsBox" Watermark="Materials"/>
+        <TextBox Name="RentBox" Watermark="Rent"/>
+        <TextBox Name="ServiceBox" Watermark="Service"/>
+        <TextBox Name="PayrollBox" Watermark="Payroll"/>
+        <TextBox Name="OtherBox" Watermark="Other"/>
+        <Button Content="Save" Click="Save"/>
+    </StackPanel>
+</Window>

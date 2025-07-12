@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SalonGui.Views.ReportWindow"
+        Title="Report" Width="350" Height="300">
+    <StackPanel Margin="10" Spacing="5">
+        <ComboBox Name="PeriodType" SelectedIndex="0">
+            <ComboBoxItem Content="Month"/>
+            <ComboBoxItem Content="Quarter"/>
+            <ComboBoxItem Content="Year"/>
+        </ComboBox>
+        <TextBox Name="YearBox" Watermark="Year"/>
+        <TextBox Name="MonthOrQuarterBox" Watermark="Month or Quarter"/>
+        <Button Content="Generate" Click="Generate"/>
+        <TextBlock Name="Output" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>

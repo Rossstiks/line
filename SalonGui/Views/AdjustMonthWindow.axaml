@@ -1,0 +1,12 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SalonGui.Views.AdjustMonthWindow"
+        Title="Adjust Month" Width="300" Height="280">
+    <StackPanel Margin="10" Spacing="5">
+        <TextBox Name="YearBox" Watermark="Year"/>
+        <TextBox Name="MonthBox" Watermark="Month"/>
+        <TextBox Name="RevenueBox" Watermark="Revenue"/>
+        <TextBox Name="ClientsBox" Watermark="Clients"/>
+        <Button Content="Save" Click="Save"/>
+    </StackPanel>
+</Window>
